@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="tab-icon.ico" type="image/x-icon">
+  <title>HTML lesson 12</title>
+  <style type="text/css">
+    input {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <a href="/index.html">ГЛАВНАЯ</a><br>
+
+  <form action="#">
+    <label>Имя:<input type="text"></label><br>
+    <label>Фамилия:<input type="text"></label><br>
+    <label>Телефон:<input type="tel"></label><br>
+    <label>E-mail:<input type="email"></label><br>
+    <label>Дата и время:<input type="datetime-local"></label><br>
+    <fieldset>
+      <legend>Выберете количество огурцов для доставки</legend>
+      <p><input type="radio" name="огурец" checked>1 огурец</p>
+      <p><input type="radio" name="огурец">2 огурца</p>
+      <p><input type="radio" name="огурец">3 огурца</p>
+      <input type="text" tabindex="">
+    </fieldset>
+    <br>
+    <input type="submit" value="Отправить">
+    <input type="reset" value="Очистить форму">
+  </form>
+</body>
+</html>
